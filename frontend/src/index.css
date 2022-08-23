@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Luxurious+Roman&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Dancing+Script", cursive;
+  color: #222
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/1586344.jpg");
+  background-size: 100%;
+}
+
+p {
+  font-size: large;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #ff0000
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #ff0000
+}
+
+.content {
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.button-24 {
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Dancing+Script", cursive;
+  font-size: large;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 16px 20px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff0000;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+.button-23 {
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Dancing+Script", cursive;
+  font-size: small;
+  font-weight: 400;
+  line-height: 10px;
+  min-height: 20px;
+  outline: 0;
+  padding: 7px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-23:hover,
+.button-23:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff0000;
+}
+
+.button-23:active {
+  opacity: .5;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[id="file-input"] + label{
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Dancing+Script", cursive;
+  font-size: small;
+  font-weight: 400;
+  line-height: 10px;
+  min-height: 20px;
+  outline: 0;
+  padding: 7px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+input[id="file-input"] + label:hover,
+input[id="file-input"] + label:active{
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff0000;
+}
+
+input[id="file-input"] + label:active{
+  opacity: .5;
+}
+
+span[id="file-name"]{
+  font-family: "Dancing+Script", cursive;
+  font-size: small;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 60px;
+}
+
+.astext {
+  width:100%;
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+}
+
+.arrow {
+  width : 0;
+  height : 0;
+  float : middle;
+  margin-top : 8px;
+  border-left : 5px solid transparent;
+  border-right : 5px solid transparent;
+  display : inline-block;
+}
+
+.arrow-up {
+  border-bottom : 10px solid black;
+}
+
+.arrow-down {
+  border-top : 10px solid black;
+}
+
+.table {
+  margin: auto;
+  width: 50%; 
+  border-collapse: separate;
+  border-spacing: 0px; 
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+
+.button-22 {
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Dancing+Script", cursive;
+  font-size: small;
+  font-weight: 400;
+  line-height: 10px;
+  min-height: 20px;
+  outline: 0;
+  padding: 7px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-left : 2%;
+  margin-right : 2%;
+  margin-top: -0.25%;
+}
+
+.button-22:hover,
+.button-22:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff0000;
+}
+
+.button-22:active {
+  opacity: .5;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
+
+input[id="pageNumber"] {
+  width: 6%;
+  text-align: center;
+  border-radius: 10px; 
+  font-family: "Dancing+Script", cursive;
+}
+
+input[id="searchUserText"] {
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2px;
+  font-family: "Dancing+Script", cursive;
+}
+
+.button-21 {
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Dancing+Script", cursive;
+  font-size: small;
+  font-weight: 400;
+  line-height: 10px;
+  min-height: 20px;
+  outline: 0;
+  padding: 7px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-left : 1%;
+  margin-right : 1%;
+  margin-top: -0.15%;
+}
+
+.button-21:hover,
+.button-21:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff0000;
+}
+
+.button-21:active {
+  opacity: .5;
+}
+
+
+select {
+  border: 1px solid #ffa0a0;
+  background: #ffa0a0;
+  border-radius: 5px;
+  width: 80px;
+}
+
+
+@media (max-width: 900px) {
+  body{
+  background-image: none;
+  background-color: #ffffff;
+  }
+  br {
+    display: block;
+    content: "";
+    margin-top: 40px;
+  }
+}
